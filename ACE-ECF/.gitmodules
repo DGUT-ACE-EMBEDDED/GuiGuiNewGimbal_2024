@@ -1,0 +1,12 @@
+[submodule "ACE-ECF-Algorithm"]
+	path = ACE-ECF-Algorithm
+	url = https://github.com/DGUT-ACE-EMBEDDED/ACE-ECF-Algorithm
+[submodule "Algorithm"]
+	path = Algorithm
+	url = https://github.com/DGUT-ACE-EMBEDDED/Algorithm.git
+[submodule "Bsp"]
+	path = Bsp
+	url = https://github.com/DGUT-ACE-EMBEDDED/Bsp.git
+[submodule "Control"]
+	path = Control
+	url = https://github.com/DGUT-ACE-EMBEDDED/Control.git
