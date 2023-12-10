@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp.sp
+--cpu=Cortex-M4.fp
 "new_infantry\main.o"
 "new_infantry\gpio.o"
 "new_infantry\freertos.o"
@@ -16,6 +16,7 @@
 "new_infantry\bsp_referee.o"
 "new_infantry\crc.o"
 "new_infantry\bsp_buzzer.o"
+"new_infantry\cybergear_motor.o"
 "new_infantry\can1_receive.o"
 "new_infantry\can1_send.o"
 "new_infantry\can2_receive.o"

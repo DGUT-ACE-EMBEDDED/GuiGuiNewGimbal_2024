@@ -7,7 +7,7 @@ new_infantry\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 new_infantry\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 new_infantry\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 new_infantry\main.o: ../Drivers/CMSIS/Include/core_cm4.h
-new_infantry\main.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+new_infantry\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 new_infantry\main.o: ../Drivers/CMSIS/Include/cmsis_version.h
 new_infantry\main.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 new_infantry\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -15,7 +15,7 @@ new_infantry\main.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 new_infantry\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 new_infantry\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 new_infantry\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-new_infantry\main.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+new_infantry\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 new_infantry\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 new_infantry\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 new_infantry\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
@@ -41,7 +41,7 @@ new_infantry\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS
 new_infantry\main.o: ../SYSTEMVIEW/SEGGER_SYSVIEW_FreeRTOS.h
 new_infantry\main.o: ../SYSTEMVIEW/SEGGER_SYSVIEW.h
 new_infantry\main.o: ../SYSTEMVIEW/SEGGER.h
-new_infantry\main.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stdarg.h
+new_infantry\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
 new_infantry\main.o: ../SYSTEMVIEW/Global.h
 new_infantry\main.o: ../SYSTEMVIEW/SEGGER_SYSVIEW_ConfDefaults.h
 new_infantry\main.o: ../SYSTEMVIEW/SEGGER_SYSVIEW_Conf.h
@@ -66,9 +66,9 @@ new_infantry\main.o: ../Core/Inc/usart.h
 new_infantry\main.o: ../USB_DEVICE/App/usb_device.h
 new_infantry\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
 new_infantry\main.o: ../USB_DEVICE/Target/usbd_conf.h
-new_infantry\main.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stdio.h
-new_infantry\main.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stdlib.h
-new_infantry\main.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\string.h
+new_infantry\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+new_infantry\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+new_infantry\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
 new_infantry\main.o: ../Core/Inc/gpio.h
 new_infantry\main.o: ../IMU/bsp_dwt.h
 new_infantry\main.o: ../IMU/BMI088driver.h

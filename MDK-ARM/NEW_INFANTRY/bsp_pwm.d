@@ -1,6 +1,6 @@
 new_infantry\bsp_pwm.o: ..\IMU\bsp_PWM.c
 new_infantry\bsp_pwm.o: ..\IMU\bsp_PWM.h
-new_infantry\bsp_pwm.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+new_infantry\bsp_pwm.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 new_infantry\bsp_pwm.o: ../Core/Inc/tim.h
 new_infantry\bsp_pwm.o: ../Core/Inc/main.h
 new_infantry\bsp_pwm.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
@@ -17,7 +17,7 @@ new_infantry\bsp_pwm.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 new_infantry\bsp_pwm.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 new_infantry\bsp_pwm.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 new_infantry\bsp_pwm.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-new_infantry\bsp_pwm.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+new_infantry\bsp_pwm.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 new_infantry\bsp_pwm.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 new_infantry\bsp_pwm.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 new_infantry\bsp_pwm.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h

@@ -43,9 +43,9 @@ void Init_Task(void const *argument)
 	//裁判系统
 	//		referee_system_init();
 
-	//创建安全任务
-	osThreadDef(Safe_TASK, Safe_Task, osPriorityNormal, 0, 128);
-	Safe_TASKHandle = osThreadCreate(osThread(Safe_TASK), NULL);
+//	//创建安全任务
+//	osThreadDef(Safe_TASK, Safe_Task, osPriorityNormal, 0, 128);
+//	Safe_TASKHandle = osThreadCreate(osThread(Safe_TASK), NULL);
 
 	//创建云台任务
 	osThreadDef(Gimbal_TASK, Gimbal_Task, osPriorityHigh, 0, 512);

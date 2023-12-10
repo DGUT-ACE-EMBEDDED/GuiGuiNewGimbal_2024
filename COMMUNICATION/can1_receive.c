@@ -86,6 +86,11 @@ void chassis_can1_callback(CAN_HandleTypeDef *hcan)
 	CAN_RxHeaderTypeDef Rxmessage; // 接收信息结构体
 	uint8_t Rx_Data[8];			   // 接收的信息缓存的数组
 
+	if (Rxmessage.IDE == CAN_ID_EXT)
+	{
+		MI_motor_recive_callback(pitch_motor, Rxmessage.ExtId, Rx_Data);//P轴return	
+	}
+	
 	if (HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &Rxmessage, Rx_Data) == HAL_OK) // 读取接收的信息
 	{
 		switch (Rxmessage.StdId)
@@ -116,6 +121,5 @@ void chassis_can1_callback(CAN_HandleTypeDef *hcan)
 			break;
 		}
 		}
-        MI_motor_recive_callback(pitch_motor, Rxmessage.ExtId, Rx_Data);//P轴
 	}
 }

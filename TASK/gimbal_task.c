@@ -34,7 +34,7 @@ gimbal_control_t Gimbal_Control;
 static void Gimbal_Work(gimbal_control_t *Gimbal_Work_f);
 static void Gimbal_Init(gimbal_control_t *Gimbal_Init_f);
 #if(PITCH_CONTROLER == PITCH_USE_LQR)
-float k_pitch_lqr[2] = {-5.94183025734807, -0.3};
+float k_pitch_lqr[2] = {-8.7, -0.6};
 #endif
 #if(YAW_CONTROLER == YAW_USE_LQR)
 float k_yaw_lqr[2] = {-7.96227766016838, -0.50467065322830};

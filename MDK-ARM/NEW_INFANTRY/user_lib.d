@@ -1,8 +1,8 @@
 new_infantry\user_lib.o: ..\IMU\user_lib.c
-new_infantry\user_lib.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stdlib.h
-new_infantry\user_lib.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\string.h
+new_infantry\user_lib.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+new_infantry\user_lib.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
 new_infantry\user_lib.o: ..\IMU\user_lib.h
-new_infantry\user_lib.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+new_infantry\user_lib.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 new_infantry\user_lib.o: ../Core/Inc/main.h
 new_infantry\user_lib.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 new_infantry\user_lib.o: ../Core/Inc/stm32f4xx_hal_conf.h
@@ -18,7 +18,7 @@ new_infantry\user_lib.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 new_infantry\user_lib.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 new_infantry\user_lib.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 new_infantry\user_lib.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-new_infantry\user_lib.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+new_infantry\user_lib.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 new_infantry\user_lib.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 new_infantry\user_lib.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 new_infantry\user_lib.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
@@ -44,7 +44,7 @@ new_infantry\user_lib.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/Free
 new_infantry\user_lib.o: ../SYSTEMVIEW/SEGGER_SYSVIEW_FreeRTOS.h
 new_infantry\user_lib.o: ../SYSTEMVIEW/SEGGER_SYSVIEW.h
 new_infantry\user_lib.o: ../SYSTEMVIEW/SEGGER.h
-new_infantry\user_lib.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\stdarg.h
+new_infantry\user_lib.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
 new_infantry\user_lib.o: ../SYSTEMVIEW/Global.h
 new_infantry\user_lib.o: ../SYSTEMVIEW/SEGGER_SYSVIEW_ConfDefaults.h
 new_infantry\user_lib.o: ../SYSTEMVIEW/SEGGER_SYSVIEW_Conf.h
@@ -63,4 +63,4 @@ new_infantry\user_lib.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semp
 new_infantry\user_lib.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
 new_infantry\user_lib.o: ../ACE-ECF/Algorithm/inc/maths.h
 new_infantry\user_lib.o: ../ACE-ECF/Algorithm/inc/struct_typedef.h
-new_infantry\user_lib.o: G:\keil5\core\ARM\ARMCC\Bin\..\include\math.h
+new_infantry\user_lib.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
